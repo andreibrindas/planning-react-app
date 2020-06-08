@@ -1,0 +1,21 @@
+.task-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3px 0;
+}
+
+.task-item p {
+  margin: 0;
+}
+
+.task-item i {
+  cursor: pointer;
+  color: #dc3545;
+  transition: 0.25s;
+}
+
+.task-item i:hover {
+  color: #c82333;
+}
